@@ -19,7 +19,13 @@ main > nav{
     background: black;
 }
 
-.scrolly{height:90%;
+.scrolly{
+    height:90%;
+    overflow-y: auto;
+}
+.scroller{
+    margin-top: 24px;
+    max-height:300px;
     overflow-y: auto;
 }
 
@@ -45,6 +51,8 @@ nav hr{
     vertical-align: middle;
 }
 
+.bonus-nav:hover{font-weight: bold;}
+
 main>section{
     height: 100%;
     width: calc(100% - 200px);
@@ -67,9 +75,9 @@ main>section{
 /* option */
 .option-1{
     border-bottom: 1px solid green;
-
 }
-
+.option-1:hover{scale: 1.2;}
+ .option:hover{scale: 1.2;}
 
 
 /* cover */
@@ -77,7 +85,16 @@ main>section{
     width: 17%;
 }
 
+.bonus-cover{
+    top: 35%;
+    right: 35%;
+    opacity: 0;
+}
+.cover:hover .bonus-cover{
+    opacity: 1;
+}
 
+.copertina:hover{opacity: 60%;  }
 
 footer{
     height: 10%;
@@ -86,7 +103,7 @@ footer{
 .full{
     height: 16  px;
     background-color: grey;
-   margin-top: 15px;
+    margin-top: 15px;
 }
 
 .partial{
@@ -120,3 +137,22 @@ footer{
     height: 12px;
     background: white   ;
 }
+
+.cursore-2{
+    height: 12px;
+    width: 12px;
+    border: 1px solid white;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.vol:hover .cursore-2{
+    display: block;
+}
+
+.vol:hover{background: greenyellow;}
+
+.bonus-footer:hover{font-weight: bold;}
