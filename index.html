@@ -13,26 +13,26 @@
         <nav class="flex wrp rel">
             <!-- inizio corpo nav -->
             <div class="as-fs">
-                <div class="p-16 flex ai-cen">
-                    <i class="fa-brands fa-spotify fa-3x" style="color: #ffffff;"></i><span class="pl-8 fs-32">Spotify</span>
+                <div class=" logo p-16 flex ai-cen">
+                    <i class="fa-brands fa-spotify fa-3x" style="color: #ffffff;"></i><span class="nav-element pl-8 fs-32">Spotify</span>
                 </div>
 
-                <div class="bonus-nav pt-8 flex ai-cen bordo-sx">
-                    <i class="fa-solid fa-house fa-1x" style="color: #ffffff;"></i><span class="pl-8 fs-20">Home</span>
+                <div class="nav-icon bonus-nav pt-8 flex ai-cen bordo-sx">
+                    <i class="fa-solid fa-house fa-1x" style="color: #ffffff;"></i><span class="nav-element pl-8 fs-20">Home</span>
                 </div>
 
-                <div class="bonus-nav pl-16 pt-8 flex ai-cen">
-                    <i class="fa-solid fa-magnifying-glass fa-1x" style="color: #ffffff;"></i><span class="pl-8 fs-20">Cerca</span>
+                <div class="nav-icon bonus-nav pl-16 pt-8 flex ai-cen">
+                    <i class="fa-solid fa-magnifying-glass fa-1x" style="color: #ffffff;"></i><span class="nav-element pl-8 fs-20">Cerca</span>
                 </div>
 
-                <div class="bonus-nav pl-16 pt-8 mb-20 flex ai-cen">
-                    <i class="fa-solid fa-book fa-1x" style="color: #ffffff;"></i><span class="pl-8 fs-20">La tua libreria</span>
+                <div class="nav-icon bonus-nav pl-16 pt-8 mb-20 flex ai-cen">
+                    <i class="fa-solid fa-book fa-1x" style="color: #ffffff;"></i><span class="nav-element pl-8 fs-20">La tua libreria</span>
                 </div>
          
-                <h2 class="p-16">PLAYLIST</h2>
-                <span class="square p-12 ml-16  mb-20"><span class="plus c-blk">+</span></span>
-                <span class="pl-8">Crea Playlist</span>
-                <div class="scroller" >
+                <h2 class="nav-element p-16">PLAYLIST</h2>
+                <span class="nav-element square p-12 ml-16  mb-20"><span class="plus c-blk">+</span></span>
+                <span class="nav-element pl-8">Crea Playlist</span>
+                <div class="nav-element scroller" >
                     <p class="bonus-nav pl-16 pt-16">Nome Playlist</p>
                     <p class="bonus-nav pl-16 pt-16">Nome Playlist</p>  
                     <p class="bonus-nav pl-16 pt-16">Nome Playlist</p> 
@@ -48,12 +48,12 @@
             <!-- fine corpo nav -->
 
             <!-- inizio footer nav -->
-            <div class="footer-nav as-fe pb-24">
-                <i class="fa-solid fa-circle-down fa-lg pl-16" style="color: #ffffff;"></i>
-                <span class="bonus-nav pl-8">Installa app</span>
-                <hr>
+            <div class="footer-nav as-fe mb-20 ">
+                <i class="fa-solid fa-circle-down fa-lg install pl-16" style="color: #ffffff;"></i>
+                <span class="nav-element bonus-nav   pl-8">Installa app</span>
+                <hr class="nav-element ">
                 <i class="fa-solid fa-circle-user fa-lg pl-16" style="color: #ffffff;"></i>
-                <span class="pl-8 fw-9">John Doe</span>
+                <span class="nav-element pl-8 fw-9">John Doe</span>
             </div>
         </nav>
 
@@ -65,7 +65,7 @@
             <!-- fine upgrade -->
             <div class="scrolly">
                 <!-- inizio sottotitoletti -->
-                <div class="flex jc-cen ai cen">
+                <div class="opzioni flex jc-cen ai-cen">
                     <div class="option-1 p-16">IN EVIDENZA</div>
                     <div class="option p-16">PODCAST</div>
                     <div class="option p-16">CLASSIFICHE</div>
@@ -170,40 +170,42 @@
             </div>
         </section>
     </main>
-    <footer class="player-c flex jc-sb ai-cen" >
-        <div class="sx flex  ai-cen ">
-            <div class="img-player w20 ml-16 mr-16 ">
-                <img class="w100" src="./spotify/img/sinister.jpeg" alt="">
-            </div>
-            <div class="pr-24">
+    <footer class="player-c flex jc-sb ai-cen mt-16" >
+        <div class="sx flex ai-cen">
+            <div class="img-player w20 ml-16 mr-16 mt-16">
+               <img class="w100" src="./spotify/img/sinister.jpeg" alt=""> 
+            </div> 
+            <div class="track-name pr-24">
                 <h3 class="pb-8">Sinister</h3>
                 <p>Brano Nome</p>
-            </div>      
-            <i class="fa-regular fa-heart pl-16 pr-16 bonus-footer" style="color: #ffffff;"></i>
-            <i class="fa-regular fa-folder pl-16 bonus-footer" style="color: #ffffff;"></i>
+            </div>
+            <div class="icon-sx">      
+                <i class="fa-regular fa-heart pl-16 pr-16 icon-sx1   bonus-footer" style="color: #ffffff;"></i>
+                <i class="fa-regular fa-folder pl-16 bonus-footer" style="color: #ffffff;"></i>
+            </div>
         </div>
 
-        <div class="cen w30 ">
+        <div class="cen w30 flex clmn mt-16 ">
             <div class="icons flex jc-cen ai-fs">
-                <i class="fa-solid fa-shuffle fa-xl p-16 bonus-footer" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-shuffle fa-xl p-16 footer-element1 bonus-footer" style="color: #ffffff;"></i>
                 <i class="fa-solid fa-backward-step fa-xl p-16 bonus-footer" style="color: #ffffff;"></i>
                 <i class="fa-regular fa-circle-play fa-2xl p-16 bonus-footer" style="color: #ffffff;"></i>
                 <i class="fa-solid fa-forward-step  fa-xl p-16 bonus-footer " style="color: #ffffff;"></i>  
-                <i class="fa-solid fa-arrow-rotate-right fa-xl p-16 bonus-footer" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-arrow-rotate-right fa-xl p-16 footer-element2 bonus-footer" style="color: #ffffff;"></i>
             </div>
 
             <div class="player-bar flex jc-cen ai-fe">
-                <span class="pr-16">0:25</span>
+                <span class="time pr-16">0:25</span>
                 <div class="full bor-30 w100 ">
                     <div class="partial w30 bor-30  rel ">
                         <div class="cursore bor-c "></div>
                     </div>
                 </div>
-                <span class="pl-16">4:35</span>
+                <span class=" time pl-16">4:35</span>
             </div>
         </div>
                     
-        <div class="dx flex jc-fe ai-cen w15">
+        <div class="dx flex jc-fe ai-cen w15 mt-16">
             <i class="fa-solid fa-list pr-12" style="color: #ffffff;"></i>
             <i class="fa-solid fa-display pr-12" style="color: #ffffff;"></i>
             <i class="fa-solid fa-volume-high pr-12" style="color: #ffffff;"></i>
@@ -216,4 +218,4 @@
         </div>
     </footer>
 </body>
-</html>
+</html>     
