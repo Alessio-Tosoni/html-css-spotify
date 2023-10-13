@@ -82,7 +82,7 @@ main>section{
 
 /* cover */
 .cover{
-    width: 17%;
+    width: 18%;
 }
 
 .bonus-cover{
@@ -156,3 +156,29 @@ footer{
 .vol:hover{background: greenyellow;}
 
 .bonus-footer:hover{font-weight: bold;}
+
+/***********MEDIA QUERY**************/
+
+/* DESKTOP */
+@media screen and (max-width:992px){    
+    .scroller{height: 200px;}
+    .upgrade > div{
+        position: absolute;
+        top: 25px; 
+        right: 30px;
+        transition: 0s;
+    }
+    .cover-c{flex-wrap: wrap;}
+    .cover{
+        width: 25%;
+        padding: 12px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .sx{width: 25%;}
+    .cen{width: 20%;}
+    .dx{}
+}
+    
