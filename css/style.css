@@ -96,7 +96,7 @@ main>section{
 
 .copertina:hover{opacity: 60%;  }
 
-footer{
+.player-c{
     height: 10%;
 }
 
@@ -173,9 +173,10 @@ footer{
         width: 25%;
         padding: 12px;
     }
-    footer{
+    .player-c{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .sx{width: 25%;}
     .cen{width: 20%;}
